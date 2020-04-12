@@ -27,7 +27,6 @@ When the script has ran the following menu will appear, where you can enter whic
     +-----------------------------------------------------------+
 
 ## Menu Walkthrough
-
 ### Option 1
 
 Option 1 runs through the code for the assignment as in the description. when seletected the script will retrieve an image from a url , upload  it to a personal bucket. Launche an ec2 instance, installs apache web server, then displays the image from my personal bucket onto the web page and also some instance meta data. When ran you will be asked to enter a bucket name, a security group ID. After each event the user will be update on what is happening. For Example "Instance is being Created". After the script has run, user will be told that the script has finished and can view web page at the given ip.
@@ -60,10 +59,14 @@ Option 7  asks user for Instance id of which the would like to enable monitoring
 ### Option 8 - Exit
 Option 8 will stops the script from running
 
+## Prerequisites
+* AWS account
+* Boto3 
+* Python3
 
 ## Built With
 
-* Python
+* Python3
 * Boto3
 * Visual Studio
 
